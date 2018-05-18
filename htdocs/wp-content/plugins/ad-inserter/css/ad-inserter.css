@@ -1,0 +1,194 @@
+#data {
+  font-family: "2.0.9"; /* Used for version number of the file */
+}
+
+#blocked-warning {
+  display: none;
+}
+
+.ui-widget {
+   font-family: sans-serif,Arial,Verdana;
+   font-size: 12px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+   font-family: sans-serif,Arial,Verdana;
+   font-size: 12px;
+}
+
+.ace_editor {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ai-icon-gear {
+  width:  16px;
+  height: 16px;
+  background-image: url(images/icon-gear.png);
+  background-repeat: no-repeat;
+}
+
+.ai-icon-gear.on {
+  background-image: url(images/icon-gear-blue.png);
+}
+
+/*#editor-1 {*/
+/*  font-family: Courier, 'Courier New', monospace, tahoma;*/
+/*  font-family: tahoma;*/
+/*  font-size: 10px";*/
+/*}*/
+
+.nav-tab {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.nav-tab-active, .nav-tab-active:hover {
+  background: #fff;
+}
+.exceptions a {
+  text-decoration: none;
+}
+.exceptions th.page {
+  text-align: left;
+}
+.exceptions td.page {
+  padding-right: 20px;
+}
+.exceptions td.id {
+  padding-right: 10px;
+  text-align: right;
+}
+.exceptions th.block, .exceptions td.block {
+  text-align: center;
+  width: 20px;
+}
+
+.small-button .ui-button-text-only .ui-button-text {
+   padding: 0px;
+}
+.responsive-table td {
+  white-space: nowrap;
+  padding: 0;
+}
+
+.no-select {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.select {
+  -webkit-user-select: all;  /* Chrome all / Safari all */
+  -moz-user-select: all;     /* Firefox all */
+  -ms-user-select: all;      /* IE 10+ */
+  user-select: all;          /* Likely future */
+}
+
+.ui-dialog {
+  z-index: 10000 !important;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  outline-color: transparent;
+}
+.no-title .ui-dialog-titlebar {
+  display:none
+}
+
+.ai-form {
+  width: 735px;
+}
+
+#ai-settings {
+  margin-right: 24px;
+}
+
+#ai-tabs a {
+  width: 14px;
+  text-align: center;
+}
+#ai-tabs {
+  padding: .2em 0 0 .6em;
+}
+
+
+#ai-scroll-tabs {
+  height: 42px;
+}
+
+#header-buttons {
+  min-height: 26px;
+  margin: 10px 0;
+  float: right;
+}
+
+.max-input {
+  display: table;
+  width: 100%;
+}
+
+.simple-editor {
+  width: 733px;
+  min-width: 370px;
+  height: 386px;
+}
+
+@media (min-width: 783px) and (max-width: 828px) {
+  .auto-fold #wpcontent, .auto-fold #wpfooter {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 782px) {
+  .auto-fold #wpcontent {
+      padding-left: 8px;
+  }
+}
+
+@media screen and (max-width: 782px){
+  #wpbody .small-select select {
+    height: 32px;
+    font-size: 14px;
+  }
+
+  #wpbody span.small-input-tags {
+    width: 22%;
+  }
+}
+
+.ms-container {
+  width: 100%;
+  font-size: 12px;
+}
+
+.ms-container .ms-selectable, .ms-container .ms-selection {
+  width: 47%;
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable, .ms-container .ms-selection li.ms-elem-selection {
+  padding: 1px 10px;
+  font-size: 12px;
+}
+
+.ms-container  dd, li {
+  margin-bottom: 4px;
+}
+.ms-container .search-input {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.ms-container div.ms-selection {
+  margin-top: 24px;
+}
+
+.country-flags .ms-container .ms-selectable li.ms-elem-selectable, .country-flags .ms-container .ms-selection li.ms-elem-selection {
+  padding-left: 30px;
+}
+
+.flag-icon {
+  display: list-item;
+  width: auto;
+  line-height: inherit;
+}
+.flag-icon, .flag-icon-background {
+  background-position: initial;
+}

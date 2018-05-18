@@ -1,0 +1,15 @@
+<wpml-config>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="et_options">
+            <key name="404_text" />
+            <key name="empty_cart_content" />
+            <key name="custom_tab_title" />
+            <key name="custom_tab" />
+            <key name="promo-link-text" />
+            <key name="pp_content" />
+        </key>
+    </admin-texts>
+</wpml-config>

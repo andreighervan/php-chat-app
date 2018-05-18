@@ -1,0 +1,87 @@
+.zfc-accordion > ul {
+  background: #fff;
+}
+.zfc-accordion > ul > li > .item-link {
+  background: transparent;
+  border-bottom: 1px solid #e4e4e4 !important;
+}
+.zfc-accordion > ul > li > .item-link:hover, .zfc-accordion > ul > li > .item-link:focus {
+  color: inherit;
+}
+.zfc-accordion > ul > li:last-child > .item-link {
+  border-bottom: 0 !important;
+}
+.zfc-accordion ul li .item-link {
+  color: #060606 !important;
+}
+.zfc-accordion ul li .item-link:hover, .zfc-accordion ul li .item-link:focus {
+  border-left: 0;
+  font-weight: bold;
+  background: transparent;
+}
+.zfc-accordion ul li.current-cat > .item-link {
+  border-left: 0;
+  font-weight: bold;
+  background: transparent;
+}
+.zfc-accordion .has-sub > .item-link > .arrow {
+  border: 0;
+  top: 8px;
+}
+.zfc-accordion .has-sub > .item-link > .arrow:after {
+  border: 0;
+  top: 3px;
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  color: #060606 !important;
+  font-size: 20px;
+  content: "+";
+  right: 0px;
+  z-index: 10;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.zfc-accordion .has-sub.open > .item-link > .arrow {
+  border: 0;
+}
+.zfc-accordion .has-sub.open > .item-link > .arrow:after {
+  border: 0;
+  content: "-";
+  top: -1px;
+  right: -2px;
+  font-size: 25px;
+}
+.zfc-accordion ul.children {
+  display: none;
+  margin: 0;
+}
+.zfc-accordion ul.children .children {
+  padding-left: 15px !important;
+}
+.zfc-accordion ul.children li .item-link {
+  background: transparent;
+}
+.zfc-accordion ul.children li .item-link .arrow {
+  padding: 10px !important;
+}
+.zfc-accordion .zfc-left > li > .item-link {
+  padding-left: 30px !important;
+}
+.zfc-accordion .zfc-left .children {
+  padding-left: 15px !important;
+}
+.zfc-accordion .zfc-left .children li .item-link {
+  padding-left: 25px !important;
+}
+.zfc-accordion .zfc-left .children li .item-link .arrow {
+  top: 6px;
+}
+.zfc-accordion .zfc-left .has-sub > .item-link > .arrow {
+  border: 1px solid #fff;
+  left: 0;
+}

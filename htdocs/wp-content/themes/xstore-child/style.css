@@ -1,0 +1,128 @@
+/*
+Theme Name: XStore Child
+Theme URI: http://8theme.com/demo/xstore/
+Template: xstore
+Author: 8theme
+Author URI: http://www.8theme.com
+Description: ThemeForest Premium Theme
+Version: 2.1.1484124169
+Updated: 2017-01-11 08:42:49
+
+*/
+
+.category-grid a img{
+	opacity:0.7;
+}
+.categories-mask mark{
+	color:#000 !important;
+	font-weight:bold !important;
+}
+.shopping-cart-widget{
+	display:none;
+}
+.et-wishlist-widget{
+	display:none !important;
+}
+.my-account-link{
+	display:none !important;
+}
+.popup_link{
+	display:none !important;
+}
+.et-header-overlap .page-heading, .et-header-overlap .page-heading.bc-size-small{
+	padding-top:100px !important;
+	padding-bottom:20px !important;
+}
+.woocommerce-breadcrumb a{
+	display:none;
+}
+
+.wp-picture a img{
+	height:200px !important;
+	width:100% !important;
+}
+article.blog-post .wp-picture img, article.post-grid .wp-picture img{
+	height:250px !important;
+}
+.posts-slider article .content-article, .posts-slider article .content-article p{
+	font-size:16px !important;
+	font-weight:normal !important;
+	line-height:1.4 !important;
+}
+.wpb_wrapper p{
+	font-size:16px !important;
+	font-weight:normal !important;
+	line-height:1.4 !important;
+}
+.tp-bgimg{
+	
+}
+
+#optinforms-form1-name-field,#optinforms-form1-email-field{
+	border:1px solid gray !important;
+	color:black !important;
+}
+#optinforms-form1-title{
+	display:none;
+}
+#optinforms-form1-subtitle{
+	margin:10px 0;
+}
+#optinforms-form1-disclaimer{
+	font-size:13px !important;
+}
+#optinforms-form1-container{
+	margin:5px auto 10px auto !important;
+}
+.content-article p{
+	font-weight:normal !important;
+}
+.footer-copyrights{
+	text-align:center;
+}
+
+/* contact us */
+textarea.form-control, textarea{
+	border:1px solid #95a5a6 !important;
+}
+input[type="text"], input[type="number"], input[type="email"], input[type="search"], input[type="password"], input[type="tel"], textarea{
+	border:1px solid #95a5a6 !important;
+}
+.button, .btn, input[type="submit"]{
+	background:#8ba7b0 !important;
+}
+.content-article a{
+	color:#3498db !important;
+	font-weight:bold !important;
+}
+.content-article a:hover{
+	text-decoration:underline !important;
+	
+}
+.product-title{
+	text-transform:initial !important;
+	
+}
+.product-title a{
+	//color:#3498db !important;
+	color:#000 !important;
+}
+	.yith-wcwl-add-to-wishlist{
+		display:none !important;
+	}
+	
+	.product-information .title, .product-info-wrapper .title, .product-summary-center .title, .product-information .product_title, .product-info-wrapper .product_title, .product-summary-center .product_title {
+		text-transform:initial !important;
+	}
+	.categories-mask mark{
+		display:none !important;
+	}
+	.tp-caption {
+		color:white !important;
+		background:rgba(44, 62, 80,0.7)!important;
+	}
+	#zfwca_widget-2 h4{
+		text-align:center;
+		margin-top:30px;
+	}
+	
